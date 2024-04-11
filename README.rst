@@ -5,7 +5,7 @@ Reproducer for https://github.com/pytest-dev/pytest-cov/issues/627
 
 To reproduce:
 
-.. code-block:: python
+.. code-block:: shell
 
    hatch run pytest --cov
 
