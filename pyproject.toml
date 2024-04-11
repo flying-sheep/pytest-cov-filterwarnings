@@ -1,0 +1,7 @@
+[project]
+name = 'pytest-cov-filterwarnings'
+version = '0.1.0'
+dependencies = ['pytest', 'pytest-cov']
+
+[tool.pytest.ini_options]
+filterwarnings = ['error::pytest_cov_filterwarnings.W']
